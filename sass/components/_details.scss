@@ -1,0 +1,22 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15rem 5rem;
+        &--exception {
+            flex-direction: row-reverse;
+        }
+    }
+    &__text-content {
+        flex: 0 0 40%;
+    }
+    &__image {
+        height: 36rem;
+        &--exception {
+            height: 30rem;
+        }
+    }
+}

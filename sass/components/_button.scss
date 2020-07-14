@@ -1,0 +1,16 @@
+.btn,
+.btn:link,
+.btn:visited {
+    cursor: pointer;
+    color: $color-white;
+    display: block;
+    border-radius: 5rem;
+    text-decoration: none;
+    height: 3.5rem;
+    width: 15rem;
+    padding: 1rem 3rem;
+}
+
+.btn-text {
+    background-color: $color-blue;
+}

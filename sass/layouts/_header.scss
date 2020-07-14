@@ -1,0 +1,42 @@
+.header {
+    position: relative;
+    background-color: $color-white;
+    overflow: hidden;
+    height: 120vh;
+    &__blob {
+        height: 76rem;
+        width: 102rem;
+        background-color: #186cb2;
+        position: absolute;
+        left: 62%;
+        border-radius: 100%;
+        bottom: 65%;
+    }
+    &__content {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        padding: 0 7.5rem;
+        top: 13rem;
+    }
+    &__image {
+        height: 45rem;
+        z-index: 1;
+    }
+}
+
+.logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.logo {
+    height: 2rem;
+    &__text {
+        font-size: 2rem;
+        font-weight: 700;
+        color: $color-black;
+        display: inline-block;
+    }
+}

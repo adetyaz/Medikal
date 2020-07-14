@@ -1,0 +1,24 @@
+.heading-primary {
+    font-size: 3.5rem;
+    font-family: "Mont bold";
+    font-weight: 600;
+    color: $color-blue;
+    &__sub {
+        font-size: 2rem;
+        font-weight: 400;
+        color: $color-black;
+    }
+}
+
+.heading-secondary {
+    font-size: 2.2rem;
+    font-family: "Mont bold";
+    font-weight: 600;
+    color: $color-blue;
+}
+
+.paragraph {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $color-black;
+}

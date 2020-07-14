@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Mont";
+  src: url("../../assets/fonts/MontDemo-ExtraLight.otf"); }
+
+@font-face {
+  font-family: "Mont Bold";
+  src: url("../../assets/fonts/MontDemo-Heavy.otf"); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Mont";
+  line-height: 1.8;
+  min-height: 100vh; }
+
+main {
+  overflow: hidden; }
+
+.heading-primary {
+  font-size: 3.5rem;
+  font-family: "Mont bold";
+  font-weight: 600;
+  color: #186cb2; }
+  .heading-primary__sub {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #000000; }
+
+.heading-secondary {
+  font-size: 2.2rem;
+  font-family: "Mont bold";
+  font-weight: 600;
+  color: #186cb2; }
+
+.paragraph {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000000; }
+
+.margin {
+  margin: 3rem 0; }
+
+.fa-chevron-right {
+  background-color: #073e6b;
+  height: 3.8rem;
+  display: inline-block;
+  position: relative;
+  left: 7rem;
+  width: 5rem;
+  border-radius: 2rem;
+  padding: 1.4rem 21px;
+  bottom: 3rem; }
+
+.btn,
+.btn:link,
+.btn:visited {
+  cursor: pointer;
+  color: #ffffff;
+  display: block;
+  border-radius: 5rem;
+  text-decoration: none;
+  height: 3.5rem;
+  width: 15rem;
+  padding: 1rem 3rem; }
+
+.btn-text {
+  background-color: #186cb2; }
+
+.details {
+  display: flex;
+  flex-direction: column; }
+  .details__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15rem 5rem; }
+    .details__content--exception {
+      flex-direction: row-reverse; }
+  .details__text-content {
+    flex: 0 0 40%; }
+  .details__image {
+    height: 38rem; }
+    .details__image--exception {
+      height: 30rem; }
+
+.header {
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+  height: 120vh; }
+  .header__blob {
+    height: 76rem;
+    width: 102rem;
+    background-color: #186cb2;
+    position: absolute;
+    left: 62%;
+    border-radius: 100%;
+    bottom: 65%; }
+  .header__content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 0 7.5rem;
+    top: 13rem; }
+  .header__image {
+    height: 45rem;
+    z-index: 1; }
+
+.logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem; }
+
+.logo {
+  height: 2rem; }
+  .logo__text {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    display: inline-block; }
+
+.details-section {
+  background-color: #ffffff;
+  padding: 3rem 5rem; }
